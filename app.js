@@ -2,7 +2,7 @@
 //'console.log' para testar métodos
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10 ;
-let numeroSecreto = gerarNumeroAleatorio(); // guradando o numero aleatorio
+let numeroSecreto = gerarNumeroAleatorio(); // guardando o numero aleatorio
 let tentativas = 1 ;
 
 function exibirTextoNaTela(tag, texto) {
@@ -17,7 +17,7 @@ function exibirTextoNaTela(tag, texto) {
         console.log("Web Speech API não suportada neste navegador.");
     }
 }
-function exibirMensagemInicial(){
+function exibirMensagemInicial(){                                                                     
     exibirTextoNaTela('h1', 'Jogo do número secreto');
     exibirTextoNaTela('p','Escolha um número de 1 a 10');
     
