@@ -1,7 +1,7 @@
 // boa prática, evitar repetições de código.
 //'console.log' para testar métodos
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10 ;
+let numeroLimite = 100 ;
 let numeroSecreto = gerarNumeroAleatorio(); // guardando o numero aleatorio
 let tentativas = 1 ;
 
@@ -19,7 +19,7 @@ function exibirTextoNaTela(tag, texto) {
 }
 function exibirMensagemInicial(){                                                                     
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p','Escolha um número de 1 a 10');
+    exibirTextoNaTela('p','Escolha um número de 1 a 100');
     
 }
 exibirMensagemInicial();
@@ -72,4 +72,4 @@ function reiniciarJogo(){
     tentativas = 1;
     exibirMensagemInicial();
     document.getElementById("reiniciar").setAttribute("disabled", true);
-}  //teste reposi
+} 
